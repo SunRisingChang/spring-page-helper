@@ -77,7 +77,12 @@ public class DataPageConfig {
 2、查询方法定义
 
 ```java
-/**
+
+	// 数据库SQL分页工具
+	@Autowired
+	private DataBaseHandle pageUtils;
+
+	/**
 	 * 分页方法 返回数据库原生字段集合
 	 *
 	 * @author Sun Rising
